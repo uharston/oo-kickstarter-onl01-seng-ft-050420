@@ -12,7 +12,6 @@ class Backer
     #add project to backer
     @backed_projects << project
     project.backers << self
-
     #add backer to @backer project array
     #how to access project @backers array? => project.backers
     #add this backer to project.backers.
