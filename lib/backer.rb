@@ -1,3 +1,4 @@
+require 'pry'
 class Backer
 
   attr_reader :backed_projects, :name
@@ -9,6 +10,8 @@ class Backer
 
   def back_project(project) #takes project instance as arg.
     @backed_projects << project
+    
+    @backed_projects.title 
   end
 
 end
