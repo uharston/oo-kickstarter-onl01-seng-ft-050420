@@ -10,7 +10,7 @@ class Backer
 
   def back_project(project) #takes project instance as arg.
     @backed_projects << project
-
+    binding.pry
     @backed_projects.title
   end
 
